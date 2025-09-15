@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}エクスポート{% endblock title %}
+{% block h1 %}エクスポート{% endblock h1 %}
+
+{% block content %}
+  <a href="{% url 'export_book' %}" class="btn btn-primary mx-3">Book</a>
+  <a href="{% url 'export_review' %}" class="btn btn-primary mx-3">Review</a>
+{% endblock content %}
